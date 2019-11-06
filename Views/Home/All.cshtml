@@ -1,0 +1,21 @@
+@model List<Blog.ViewModels.PostViewModel>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="postContainer" style="width:70%;background-color:#00bfff;margin:auto;
+    padding:30px;">
+        @foreach(var post in Model){
+            <h1 style="text-align:center">@post.Title</h1>
+            <p style="text-align:justify;width:400px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">@post.Content</p>
+            <a href="/Home/ShowPost/@post.Id">ReadMore</a>
+            <hr> 
+        }
+    </div>
+</body>
+</html>

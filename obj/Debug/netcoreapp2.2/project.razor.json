@@ -1,0 +1,25 @@
+{
+  "FilePath": "c:\\Users\\Jama_yw17\\Desktop\\Blog\\Blog.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "3.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": "Blog",
+  "Documents": [
+    {
+      "FilePath": "Properties\\Views\\Home\\index.cshtml",
+      "TargetPath": "Properties\\Views\\Home\\index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}
